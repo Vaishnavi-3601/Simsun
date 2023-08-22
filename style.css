@@ -271,11 +271,11 @@ footer{
   position: relative;
   bottom: 0;
   left: 0;
+
   background: #111;
 }
 footer .content{
   max-width: 1350px;
-  margin: auto;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -293,28 +293,42 @@ footer .content .lower{
 }
 footer .content .upper{
   line-height: 32px;
+  padding-left: 30px;
 }
 footer .content .topic{
   font-size: 22px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 16px;
+  padding-left: 30px;
+}
+footer .content .topic1{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
 }
 footer .content p{
   text-align: justify;
 }
 footer .content .lower .topic{
   margin: 24px 0 5px 0;
+  padding-left: 30px;
+}
+footer .content .lower a{
+  line-height: 32px;
 }
 footer .content .lower i{
   padding-right: 20px;
 }
 footer .content .middle{
-  padding-left: 20px;
   padding-right: 10px;
+  
 }
 footer .content .middle a{
   line-height: 32px;
+  padding-left: 30px;
 }
 footer .content .right input[type="text"]{
   height: 45px;
@@ -530,12 +544,6 @@ body{
 }
 /* ------------------Lower -------------- */
 
-
-
-@media(width<=500px){
-
-}
-
 .lleft{
 width: 674px;
 height: auto;
@@ -588,7 +596,6 @@ justify-content: space-evenly;
 align-items: center;
 height: auto;
 flex-wrap: wrap;
-
 gap: 10px;
 }
 
@@ -599,8 +606,6 @@ background: rgba(233, 229, 229, 0.13);
 border-radius: 20px;
 border: solid 1px rgb(252, 251, 251);
 box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
-
-
 }
 
 .fourcard img{
@@ -625,7 +630,6 @@ color: black;
 letter-spacing: 1px;
 }
 
-
 @media(width<=600px){
 .upper img {
   margin-top: 0px;
@@ -647,7 +651,6 @@ letter-spacing: 1px;
 .fourcard {
   width: 300px;
   height: 300px;
-  
 }
 .fourcard h1 {
   color: blue;
@@ -680,7 +683,7 @@ animation: glow-animation 1s infinite; /* Adjust animation duration as needed */
   width: 100%;
   padding: 0.5em 0;
 }
-h1 {
+.row h1 {
   width: 100%;
   text-align: center;
   font-size: 3.5em;
