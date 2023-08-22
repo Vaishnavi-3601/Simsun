@@ -330,6 +330,9 @@ footer .content .middle a{
   line-height: 32px;
   padding-left: 30px;
 }
+footer .content .right form{
+  padding-left: 30px;
+}
 footer .content .right input[type="text"]{
   height: 45px;
   width: 100%;
